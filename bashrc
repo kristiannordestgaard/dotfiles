@@ -16,7 +16,7 @@ if [ -z "$debian_chroot" ] && [ -r /etc/debian_chroot ]; then
 fi
 
 # set a fancy prompt (non-color, overwrite the one in /etc/profile)
-PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
+# PS1='${debian_chroot:+($debian_chroot)}\u@\h:\w\$ '
 
 # Commented out, don't overwrite xterm -T "title" -n "icontitle" by default.
 # If this is an xterm set the title to user@host:dir
@@ -61,3 +61,7 @@ if [ -x /usr/lib/command-not-found -o -x /usr/share/command-not-found ]; then
 		fi
 	}
 fi
+
+alias ls='ls --color'
+# LS_COLORS='di=1:fi=0:ln=31:pi=5:so=5:bd=5:cd=5:or=31:mi=0:ex=35:*.deb=90'
+export LS_COLORS
