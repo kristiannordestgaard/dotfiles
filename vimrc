@@ -420,4 +420,18 @@ filetype indent on
 " The following changes the default filetype back to 'tex':
 let g:tex_flavor='latex'
 
+" kristian - til tekstfiler
+
+autocmd BufRead *\.txt setlocal formatoptions=l
+autocmd BufRead *\.txt setlocal lbr
+autocmd BufRead *\.txt setlocal wrap
+autocmd BufRead *\.txt setlocal linebreak
+autocmd BufRead *\.txt set nolist
+autocmd BufRead *\.txt set formatoptions+=a
+" autocmd BufRead *\.txt set syntax off
+" autocmd BufRead *\.txt map  j gj
+" autocmd BufRead *\.txt  map  k gk
+autocmd BufRead *\.txt setlocal smartindent
+autocmd BufRead *\.txt setlocal spell spelllang=da
+
 
