@@ -1,0 +1,33 @@
+
+*** These modified files were found in JOE when it aborted on Tue Jul 24 14:11:58 2012
+*** JOE was aborted by UNIX signal 1
+
+*** File '.git/COMMIT_EDITMSG'
+:q
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch gh-pages
+# Changes to be committed:
+#   (use "git reset HEAD <file>..." to unstage)
+#
+#	new file:   images.php
+#	new file:   images/kitten1.jpg
+#	new file:   images/kitten2.jpg
+#	new file:   images/kitten3.jpg
+#	new file:   images2.php
+#	new file:   index.php
+#	new file:   slideshow.php
+#
+# Changes not staged for commit:
+#   (use "git add/rm <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	deleted:    images.php
+#	deleted:    images/image1.jpg
+#
+
+*** File '(Unnamed)'
+tst.text
+.git/MERGE_MSG
+.git/COMMIT_EDITMSG
